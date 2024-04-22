@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block title %} welcome to online Testing System {% endblock title %}
+{% block top%}
+<a href="{% url 'OTS:registrationForm' %}">Signup</a>
+<a href="{% url 'OTS:login' %}">Login</a>
+{%endblock %}
+{% block content %}
+
+<P>If you are looking for a modern test management solution, I can recommend test management applicaion.<br>The UI looks clean and friendly to get started with. Import features are easy to understand. Dashboard charts are useful.</P>
+<br>
+<h4>Over 5000 companies trust our OTS system </h4>
+
+
+{% endblock %}
